@@ -8,7 +8,7 @@ class Solution:
                 if l:
                     x = l.pop()
                     if (x == "(" and s[i] ==")") or (x == "{" and s[i] =="}") or (x == "[" and s[i] =="]"):
-                        print(x,s[i],"*")
+                        pass
                     else:
                         l.append(x)
                         break
